@@ -7,15 +7,15 @@
 int main() {
    // 1° carta
   // Área para definição das variáveis para armazenar as propriedades das cidades
-    char estado1[10];
-    char codigo1[5];
-    char nome_cidade1[10];
-    int populacao1;
-    float area1;
-    int pib1;
-    int pontos_turisticos1;
+    char estado1[15], estado2[15];
+    char codigo1[5], codigo2[5];
+    char nome_cidade1[15], nome_cidade2[15];
+    int populacao1, populacao2;
+    float area1, area2;
+    int pib1, pib2;
+    int pontos_turisticos1, pontos_turisticos2;
 
-    // 2° carta
+    /*// 2° carta
     char estado2[10];
     char codigo2[5];
     char nome_cidade2[10];
@@ -23,7 +23,7 @@ int main() {
     float area2;
     int pib2;
     int pontos_turisticos2;
-
+    */
 
 
    // 1°carta interação
@@ -86,7 +86,7 @@ int main() {
     printf("Código: %s \n",codigo1);
     printf("Nome da Cidade: %s \n",nome_cidade1);
     printf("População: %d \n",populacao1);
-    printf("Área: %f \n",area1);
+    printf("Área: %2.f \n",area1);
     printf("PIB: %d \n",pib1);
     printf("Pontos Turísticos: %d \n",pontos_turisticos1);
 
@@ -97,7 +97,7 @@ int main() {
     printf("Código: %s \n",codigo2);
     printf("Nome da Cidade: %s \n",nome_cidade2);
     printf("População: %d \n",populacao2);
-    printf("Área: %f \n",area2);
+    printf("Área: %2.f \n",area2);
     printf("PIB: %d \n",pib2);
     printf("Pontos Turísticos: %d \n",pontos_turisticos2);
 
