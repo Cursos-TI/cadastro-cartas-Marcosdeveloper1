@@ -15,18 +15,6 @@ int main() {
     int pib1, pib2;
     int pontos_turisticos1, pontos_turisticos2;
 
-    /*// 2° carta
-    char estado2[10];
-    char codigo2[5];
-    char nome_cidade2[10];
-    int populacao2;
-    float area2;
-    int pib2;
-    int pontos_turisticos2;
-    */
-
-
-   // 1°carta interação
   //Mensagem de boas vindas
     printf("Seja bem vindo! Siga os passos abaixo por gentileza para o cadastro da 1° carta \n");
 
